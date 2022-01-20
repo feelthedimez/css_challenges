@@ -1,0 +1,126 @@
+body, html {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: #e0e8ff;
+}
+
+main {
+  width: 21.875rem;
+  margin: 3vh auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h2 {
+  color: #1f2f56;
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+  color: #7280a7;
+  margin: 10px 10px;
+}
+
+.card {
+  background-color: #f5f7ff;
+  border-radius: 1rem;
+}
+
+.card__img {
+  width: 100%;
+  border-radius: 0.8rem 0.8rem 0 0;
+}
+
+.card__content {
+  margin: 1.5rem 2rem 2rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.card__link:link {
+  color: #3829e0;
+}
+
+.card__link:hover {
+  color: #7280a7;
+  text-decoration: none;
+}
+
+.card__plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 10px 0px;
+}
+
+.card__pricing {
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card__pricing span {
+  color: #1f2f56;
+  font-weight: 700;
+}
+
+.card__submit-buttons {
+  margin-top: 10px;
+  padding: 0;
+}
+
+.card__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  padding: 10px 0;
+}
+
+.card__button--proceed {
+  color: #f5f7ff;
+  background-color: #3829e0;
+}
+
+.card__button--proceed:hover {
+  background-color: #7280a7;
+}
+
+.card__button--cancel {
+  margin-top: 10px;
+  color: #7280a7;
+}
+
+.card__button--cancel:hover {
+  color: #1f2f56;
+}
+/*# sourceMappingURL=styles.css.map */

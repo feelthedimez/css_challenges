@@ -1,0 +1,116 @@
+$pale-blue: hsl(225, 100%, 94%);
+$bright-blue: hsl(245, 75%, 52%);
+$very-pale-blue: hsl(225, 100%, 98%);
+$desaturated-blue: hsl(224, 23%, 55%);
+$dark-blue: hsl(223, 47%, 23%);
+$font-stack: "Red Hat Display", sans-serif;
+
+
+body, html {
+    font-family: $font-stack;
+    background-color: $pale-blue;
+}
+
+main {
+    width: 21.875rem;
+    margin: 3vh auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: $dark-blue;
+    margin: 0;
+    
+}
+
+p {
+    font-size: 16px;
+    color: $desaturated-blue;
+    margin: 10px 10px;
+}
+
+
+.card {
+    background-color: $very-pale-blue;
+    border-radius: 1rem;
+
+    &__img {
+        width: 100%;
+        border-radius: 0.8rem 0.8rem 0 0;
+    }
+
+    &__content {
+        margin: 1.5rem 2rem 2rem 2rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    &__link:link {
+        color: $bright-blue;
+    }
+
+    &__link:visited {
+
+    }
+
+    &__link:hover {
+        color: $desaturated-blue;
+        text-decoration: none;
+    }
+
+    &__plan {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 10px 0px;
+    }
+
+    &__pricing {
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__pricing span {
+        color: $dark-blue;
+        font-weight: 700;
+    }
+
+    &__submit-buttons {
+        // background-color: aqua;
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: 700;
+        text-decoration: none;
+        border-radius: 0.5rem;
+        padding: 10px 0;
+
+        &--proceed {
+            color: $very-pale-blue;
+            background-color: $bright-blue;
+        }
+
+        &--proceed:hover {
+            background-color: $desaturated-blue;
+        }
+
+        &--cancel {
+            margin-top: 10px;
+            color: $desaturated-blue;
+        }
+
+        &--cancel:hover {
+            color: $dark-blue;
+        }
+    }
+
+}
